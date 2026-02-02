@@ -1,6 +1,14 @@
-﻿namespace Smart_Dilation_Management
 {
-    public class appsetting
-    {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
     }
+  },
+  "Jwt": {
+    "Key": "THIS_IS_A_VERY_SECRET_KEY_123456",
+    "Issuer": "DoctorApi",
+    "Audience": "DoctorApiUsers"
+  }
+
 }
