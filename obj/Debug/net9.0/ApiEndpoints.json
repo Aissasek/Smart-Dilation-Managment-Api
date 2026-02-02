@@ -1,0 +1,351 @@
+[
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Smart_Dilation_Management.DTO.LoginDTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "AddNewDoctor",
+    "RelativePath": "api/Doctor/Add_New_Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDoctor",
+        "Type": "Smart_Dilation_Management.DTO.DoctorDTO.AddNewDoctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "DeleteDoctor",
+    "RelativePath": "api/Doctor/Delete_Doctor/{DoctorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "GetDoctorFree",
+    "RelativePath": "api/Doctor/Doctor_Free",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "GetDoctorNotFree",
+    "RelativePath": "api/Doctor/Doctor_Not_Free",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "GetAllDoctor",
+    "RelativePath": "api/Doctor/Get_All_Doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "MarkAsDone",
+    "RelativePath": "api/Doctor/Mark_Done/{PatientId}/{DoctorId}/{StaffId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "StaffId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "PatientExamination",
+    "RelativePath": "api/Doctor/PatientExamination/{DoctorId}/{PatientId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ExaminationReport",
+        "Type": "Smart_Dilation_Management.DTO.DoctorDTO.DilationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "SearchDoctor",
+    "RelativePath": "api/Doctor/Search/{FullName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.DoctorController",
+    "Method": "UpdateDoctor",
+    "RelativePath": "api/Doctor/Update_Doctor/{DoctorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdateDoctor",
+        "Type": "Smart_Dilation_Management.DTO.DoctorDTO.UpdateDoctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "UpdatePatientDropsCount",
+    "RelativePath": "api/Patient/Add_Doza/{PatientId}/{StaffId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "StaffId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "AddNewPatient",
+    "RelativePath": "api/Patient/Add_New_Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewPatient",
+        "Type": "Smart_Dilation_Management.DTO.PatientDTO.AddNewPatient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientCompleted",
+    "RelativePath": "api/Patient/Completed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "DeletePatient",
+    "RelativePath": "api/Patient/Delete_Patient/{PatientID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientDone",
+    "RelativePath": "api/Patient/Done",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "EnterThePatient",
+    "RelativePath": "api/Patient/Enter_The_Patient/{PatientID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetAllPatients",
+    "RelativePath": "api/Patient/Get_All_Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientIndilation",
+    "RelativePath": "api/Patient/Indilation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientPostDilation",
+    "RelativePath": "api/Patient/PostDilation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "SearchPatient",
+    "RelativePath": "api/Patient/Search/{FullName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientByStatus",
+    "RelativePath": "api/Patient/Status/{Status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "UpdatePatientInfo",
+    "RelativePath": "api/Patient/Update_Patient/{PatientID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdatePatient",
+        "Type": "Smart_Dilation_Management.DTO.PatientDTO.UpdatePatient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Dilation_Management.Controllers.PatientController",
+    "Method": "GetPatientWaiting",
+    "RelativePath": "api/Patient/Waiting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
