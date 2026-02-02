@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart Dilation Management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b5b39e3da20ae18ff3419c3638ef676f81acc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart Dilation Management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart Dilation Management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
